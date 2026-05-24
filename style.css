@@ -545,6 +545,47 @@ form button:hover {
     padding: 1rem;
   }
 
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .contact-info {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+  
+/* .contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  box-sizing: border-box;
+} */
+
+
+
+
+
+  /* .btn {
+    width: 100%;
+    max-width: 320px;
+    padding: 16px 24px;
+    font-size: 1.08rem;
+  } */
+/* #contact.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+} */
+
   .contact {
     padding: 80px 6%;
   }
@@ -576,6 +617,8 @@ form button:hover {
   }
 
 
+
+
 section .buttons {
   display: flex;
   justify-content: center; /* centers horizontally */
@@ -599,14 +642,14 @@ section .buttons {
   .hero-photo img {
     width: 80%;
     margin-bottom: 1.5rem;
-  }
+  } 
 
   /* .contact-container {
     flex-direction: column;
     align-items: center;
-  } */
+  }  */
 
-  /* .contact-info {
+   /* .contact-info {
     text-align: center;
   } */
 }
@@ -622,14 +665,66 @@ section .buttons {
   .projects h2, .contact h2 {
     font-size: 1.5rem;
   }
+
+.hero-photo, img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    /* border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  */
+  }
+/* .buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  } */
+
+  /* .btn {
+    width: 100%;
+    max-width: 320px;
+    padding: 16px 24px;
+    font-size: 1.08rem;
+  } */
+
+  .projects h2, .contact h2 {
+    font-size: 1.5rem;
+  }
   section .buttons {
   display: flex;
   justify-content: center; /* centers horizontally */
   align-items: center;      /* centers vertically if parent has height */
 }
+/* .contact {
+    padding: 70px 5%;
+  }
+
+.contact h2 {
+    font-size: 2.1rem;
+  }
+
+.contact-info {
+    padding: 1.8rem;
+    font-size: 1.05rem;
+    line-height: 2;
+  }
+
+.contact form {
+    gap: 1.2rem;
+  } */
+
+
+
+
+/* .hero-photo img {
+    width: 65%;
+    margin-bottom: 1.5rem;
+  } */
 
 
 }
 
-
+/* .contact input:hover,
+.contact textarea:hover {
+  border-color: rgba(0, 212, 255, 0.3);
+} */
 
